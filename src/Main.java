@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EntranceSign {
+public class Main {
     public static void main(String[] args) {
 
         // Create scanner object to read input
