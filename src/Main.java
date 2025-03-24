@@ -52,6 +52,13 @@ public class Main {
         // Print the max visitors allowed in Mesozoic Eden per day
         System.out.println("There's a maximum of " + maxVisitors + " people allowed in Mesozoic Eden");
 
+        // Employee info
+        String employeeName = "Maddie";
+        int employeeAge = 30;
+
+        // Print employee info
+        System.out.println("Employee name: " + employeeName + " age: " + employeeAge);
+
 
     }
 }
