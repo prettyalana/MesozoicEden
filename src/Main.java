@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Please don't fear, Mesozoic Eden is safe and secure!");
 
         // Dinosaur Info
-        String dinosaurBreed = "Tyrannosaurus rex";
+        String[] dinosaurBreeds = {"Tyrannosaurus rex", "Triceratops", "Velociraptor"};
         int dinosaurHeight = 12;
         int dinosaurLength = 40;
         int dinosaurWeight = 9_000;
@@ -41,9 +41,17 @@ public class Main {
 
 
         // Print the dinosaur info
-        System.out.println("T. rex Info: " + "breed: " + dinosaurBreed + " height: " + dinosaurHeight + " length: " + dinosaurLength + " weight: " + dinosaurWeight);
+        System.out.println("T. rex Info: " + "breed: " + dinosaurBreeds[0] + " height: " + dinosaurHeight + " length: " + dinosaurLength + " weight: " + dinosaurWeight);
 
         // Print the dinosaur info cont...
-        System.out.println("T.rex Info: " + "age: " + dinosaurAge + " name: " + dinosaurName + " carnivore: " + isCarnivore );
+        System.out.println("T. rex Info: " + "age: " + dinosaurAge + " name: " + dinosaurName + " carnivore: " + isCarnivore );
+
+        // Max visitors
+        int maxVisitors = 300;
+
+        // Print the max visitors allowed in Mesozoic Eden per day
+        System.out.println("There's a maximum of " + maxVisitors + " people allowed in Mesozoic Eden");
+
+
     }
 }
